@@ -192,8 +192,8 @@ inline void start_test_algorithm(
              *  the current slot sequence and the previous slot sequence for every miss occurrence 
              *  is appropriate.
              * 
-             *   -> (CASE 1) : if the current slot_number is bigger
-             *   -> (CASE 2) : if the previous slot_number is bigger
+             *   -> (CASE 1) : if the current slot_number is greater
+             *   -> (CASE 2) : if the previous slot_number is greater or equal
              * 
              *  We can try with another value.
              * 
