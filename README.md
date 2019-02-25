@@ -25,7 +25,7 @@
 &emsp;{std::string output_name} : name of the output data file (such as .txt)    
 
 &emsp;{int RANGE} : range of block number    
-&emsp;{int W}     : maximum size of the window, that is nubmer of slot sequence    
+&emsp;{int W}     : maximum size of the window, that is the nubmer of slot sequence    
 &emsp;&emsp;&emsp;(these two variables correspond with input data file)    
 
 &emsp;In the function "start_test_algorithm( )," I wrote comments explain my idea. You can read it and understand how it works.    
