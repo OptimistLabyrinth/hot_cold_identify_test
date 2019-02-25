@@ -10,8 +10,9 @@
 &emsp;$ make clean    
 
 &emsp;$ cd .. && rm -rf build/  (you can clear by removing the directory itself)    
-    
-    
+&emsp;    
+&emsp;    
+
 # Additional Information
 ## Requiremets
 &emsp;CMake >= 3.0 (using "$ make")    
@@ -31,4 +32,4 @@
 
 ## Using test_case_xx.txt
 &emsp;(for "test_case_01.txt" and "test_case_02.txt") RANGE = 5, W = 5    
-&emsp;(for "test_case_03.txt" and "test_case_03.txt") RANGE - 8, W = 10    
+&emsp;(for "test_case_03.txt" and "test_case_03.txt") RANGE = 8, W = 10    
