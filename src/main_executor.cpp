@@ -173,6 +173,9 @@ inline void start_test_algorithm(
              *  I roughly thought decreasing 10% for every hit occurrence
              *  is appropriate.
              * 
+             *   -> (CASE 1) : if stack distance variable > 10... decrease 10%
+             *   -> (CASE 2) : if stack distance variable <= 10... decrease '1'
+             * 
              *  We can try with another value.
              * 
              */
