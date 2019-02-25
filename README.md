@@ -9,8 +9,7 @@
 #### &ensp;(in the build directory)
 &emsp;$ make clean    
 
-&emsp;(or you can clear by removing the directory itself)    
-&emsp;$ cd .. && rm -rf build/    
+&emsp;$ cd .. && rm -rf build/  (you can clear by removing the directory itself)    
 
 ## Requiremets
 &emsp;CMake >= 3.0 (using "$ make")    
