@@ -28,7 +28,7 @@
 &emsp;{int W}     : maximum size of the window, that is nubmer of slot sequence    
 &emsp;&emsp;&emsp;(these two variables correspond with input data file)    
 
-&emsp;In the function "start_test_algorith( )," I wrote comments explain my idea. You can read it and understand how it works.
+&emsp;In the function "start_test_algorithm( )," I wrote comments explain my idea. You can read it and understand how it works.    
 
 ## Using test_case_xx.txt
 &emsp;(for "test_case_01.txt" and "test_case_02.txt") RANGE = 5, W =  5    
