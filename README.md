@@ -15,7 +15,7 @@
 
 # Additional Information
 ## Requiremets
-&emsp;CMake >= 3.0 (using "$ make")    
+&emsp;CMake >= 3.0 (using "$ cmake" and "$ make")    
 &emsp;GCC >= 4.8 (using "$ g++")    
 &emsp;Clang >= 3.3 (using "$ g++")    
 
