@@ -31,5 +31,5 @@
 &emsp;In the function "start_test_algorith( )," I wrote comments explain my idea. You can read it and understand how it works.
 
 ## Using test_case_xx.txt
-&emsp;(for "test_case_01.txt" and "test_case_02.txt") RANGE = 5, W = 5    
+&emsp;(for "test_case_01.txt" and "test_case_02.txt") RANGE = 5, W =  5    
 &emsp;(for "test_case_03.txt" and "test_case_03.txt") RANGE = 8, W = 10    
