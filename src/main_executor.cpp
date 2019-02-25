@@ -190,7 +190,7 @@ inline void start_test_algorithm(
              *  This is an increasing phase
              * 
              *  I roughly thought increasing the amount of difference between 
-             *  the current slot sequence and previous slot sequence for every miss occurrence 
+             *  the current slot sequence and the previous slot sequence for every miss occurrence 
              *  is appropriate.
              * 
              *   -> (CASE 1) : if the current slot_number is bigger
