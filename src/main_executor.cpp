@@ -160,9 +160,23 @@ inline void start_test_algorithm(
 {
     int cnt = 0;
     int slot = 1;
+    /*
+     *  At first, I though of using variable "increase_degree."
+     *  Accordance with this, I thought I could change the value of 
+     *  ST_DIST_VAR (= stack distance variable), but it wasn't successful.
+     */
     // int increase_degree = 0;
     for (auto it=INPUT.begin(); it != INPUT.end(); ++it) {
         if (SLOT_NUM[*it] == slot) {
+            /*
+             *  This is a decreasing phase.
+             * 
+             *  I roughly thought decreasing 10% for every hit occurrence
+             *  is appropriate.
+             * 
+             *  We can try with another value.
+             * 
+             */
             oss<<"the same  "
                 <<"("<<std::setw(4)<<' '<<"->"<<std::setw(4)<<' '<<") ";
             if (10 < ST_DIST_VAR) {
@@ -173,9 +187,21 @@ inline void start_test_algorithm(
             // else { increase_degree -= 2; }
         }
         else {
+            /*
+             *  This is an increasing phase
+             * 
+             *  I roughly thought increasing the amount of difference between
+             *  current slot sequence and previous slot sequence for every miss occurrence
+             *  is appropriate.
+             * 
+             *   -> (CASE 1) : if the current slot_number is bigger
+             *   -> (CASE 2) : if the previous slot_number is bigger
+             * 
+             *  We can try with another value.
+             */
             oss<<"different "
                 <<"("<<std::setw(4)<<SLOT_NUM[*it]<<"->"<<std::setw(4)<<slot<<") ";
-            if (SLOT_NUM[*it] < slot) { 
+            if (SLOT_NUM[*it] < slot) {
                 ST_DIST_VAR += slot - SLOT_NUM[*it];
             }
             else {
