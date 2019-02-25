@@ -8,10 +8,10 @@
 #include <cmath>
 #include <iomanip>
 
-const std::string path = "../test_data/";
-const std::string file_name = "test_case_04.txt";
-// const std::string file_name = "test_case_10.txt";
-const std::string output_name = "output.txt";
+const std::string path          = "../test_data/";
+const std::string file_name     = "test_case_04.txt";
+// const std::string file_name  = "test_case_10.txt";
+const std::string output_name   = "output.txt";
 
 constexpr int RANGE =  8;
 constexpr int W     = 10;
@@ -24,10 +24,6 @@ inline void postprocess_input_data(std::ifstream&);
 inline void print_vector(const std::vector<int>&);
 inline void start_test_algorithm(const std::vector<int>&, std::vector<int>&, long long&);
 inline void postprocess_output_file(void);
-
-
-
-
 
 std::ofstream outfile;
 std::ostringstream oss;
