@@ -196,6 +196,7 @@ inline void start_test_algorithm(
              *   -> (CASE 2) : if the previous slot_number is bigger
              * 
              *  We can try with another value.
+             * 
              */
             oss<<"different "
                 <<"("<<std::setw(4)<<SLOT_NUM[*it]<<"->"<<std::setw(4)<<slot<<") ";
