@@ -7,9 +7,9 @@
 
 ## Clear
 #### &ensp;(in the build directory)
-&emsp;$ make clean
+&emsp;$ make clean    
 
-&emsp;(or you can clear by removing the directory itself)
+&emsp;(or you can clear by removing the directory itself)    
 &emsp;$ cd .. && rm -rf build/    
 
 ## Requiremets
