@@ -15,9 +15,9 @@
 &emsp;Clang >= 3.3 (using "$ g++")    
 
 ## Configurations
-&emsp;{std::string path}        : path to the input and output data (such as .txt)    
-&emsp;{std::string file_name}   : name of the input data file    
-&emsp;{std::string output_name} : name of the output data file    
+&emsp;{std::string path}        : path to the input and output data    
+&emsp;{std::string file_name}   : name of the input data file (such as .txt)    
+&emsp;{std::string output_name} : name of the output data file (such as .txt)    
 
 &emsp;{int RANGE} : range of block number    
 &emsp;{int W}     : maximum size of the window, that is nubmer of slot sequence    
