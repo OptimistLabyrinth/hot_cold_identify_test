@@ -142,7 +142,7 @@ inline void print_vector(const std::vector<int>& V) {
     int cnt = 0;
     for(auto x : V) {
         oss<<std::setw(1)<<x<<' ';
-        if (++cnt % 10 == 0) {
+        if (++cnt % W == 0) {
             oss<<std::endl;
             outfile<<oss.str();
             std::cout<<oss.str(); oss = std::ostringstream();
