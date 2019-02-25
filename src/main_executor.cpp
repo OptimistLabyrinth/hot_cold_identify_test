@@ -111,7 +111,7 @@ inline void preprocess_output_file(void) {
 inline void preprocess_input_data(std::ifstream& infile) {
     infile.open(path+file_name, std::ios::in);
     if (!infile.is_open()) {
-        oss<<"Opening file FAILED...";
+        oss<<"Opening infile FAILED...";
         std::cout<<oss.str()<<std::endl; oss = std::ostringstream();
         throw infile.exceptions();
     }
@@ -132,7 +132,7 @@ inline void collect_data(std::ifstream& infile, std::vector<int>& INPUT) {
 inline void postprocess_input_data(std::ifstream& infile){
     infile.close();
     if (infile.is_open()) {
-        oss<<"Not Closed...???";
+        oss<<"Infile Not Closed...???";
         std::cout<<oss.str()<<std::endl; oss = std::ostringstream();
         throw infile.exceptions();
     }
