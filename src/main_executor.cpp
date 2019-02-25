@@ -22,8 +22,7 @@ inline void preprocess_input_data(std::ifstream&);
 inline void collect_data(std::ifstream&, std::vector<int>&);
 inline void postprocess_input_data(std::ifstream&);
 inline void print_vector(const std::vector<int>&);
-inline void start_test_algorithm(
-    const std::vector<int>&, std::vector<int>&, long long&);
+inline void start_test_algorithm(const std::vector<int>&, std::vector<int>&, long long&);
 inline void postprocess_output_file(void);
 
 
