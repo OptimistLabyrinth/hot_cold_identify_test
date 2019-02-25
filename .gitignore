@@ -33,3 +33,6 @@
 
 # Text Editor Specific
 .vscode/
+
+# Mac OS
+.DS_Store
