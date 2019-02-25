@@ -22,5 +22,5 @@
 &emsp;{int RANGE} : range of block number    
 &emsp;{int W}     : maximum size of the window, that is nubmer of slot sequence    
 &emsp;&emsp;&emsp;(these two variables correspond with input data file)    
-&emsp;
-&emsp; In the function "start_test_algorith( )," I wrote comments explain my idea. You can read it and understand how it works.
+
+&emsp;In the function "start_test_algorith( )," I wrote comments explain my idea. You can read it and understand how it works.
